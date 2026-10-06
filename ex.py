@@ -9,7 +9,6 @@ import random, time
 
 app = FastAPI()
 
-# ALLOW STREAMLIT CALL TO  API
 
 app.add_middleware(
     CORSMiddleware,
